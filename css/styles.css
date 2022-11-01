@@ -1,0 +1,246 @@
+@media screen and (max-width: 601px) {
+  .header .background {
+    background-image: url(../images/header-background-mobile.jpg);
+    height: 785px;
+  }
+  .header .menu-button {
+    margin-bottom: 250px;
+  }
+  .header .button-background {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .header .button-icon {
+    background-image: url(../images/menu-icon-bars.png);
+    background-size: cover;
+    width: 19px;
+    height: 15px;
+  }
+  .header .drop-down {
+    background-color: rgba(255, 255, 255, 0.8);
+    top: 36px;
+    left: -111.5px;
+  }
+  .header .drop-down li {
+    width: 300px;
+  }
+  .header .checkbox {
+    width: 19px;
+    height: 19px;
+    top: 8px;
+    left: 10px;
+  }
+  .header .checkbox:checked ~ .drop-down {
+    display: block;
+  }
+  .yellow {
+    background-image: url(../images/yellow-bar-background-repeatable.jpg);
+  }
+  .yellow .turnip {
+    background-image: url(../images/noodle.png);
+    width: 106px;
+    height: 79px;
+    margin-bottom: 20px;
+  }
+  .yellow .beetroot {
+    background-image: url(../images/tea.png);
+    width: 106px;
+    height: 79px;
+    margin-bottom: 20px;
+  }
+  .yellow .get-social {
+    background-image: url(../images/sweet.png);
+    width: 106px;
+    height: 79px;
+    margin-bottom: 20px;
+  }
+  .month-special .container {
+    background-color: #f8f8f8;
+    width: 350px;
+  }
+  .month-special img {
+    width: 175px;
+    height: 175px;
+  }
+  .about-us {
+    background-color: #f8f8f8;
+  }
+  .about-us .background {
+    background-image: url(../images/about-us-background-mobile.png);
+    width: 210px;
+    height: 125px;
+    background-size: cover;
+    background-position: right;
+  }
+  .about-us .mobile-signature {
+    background-image: url(../images/signature.png);
+    width: 127px;
+    height: 86px;
+    background-size: cover;
+  }
+  .menu-cart .dots::after {
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    width: 600px;
+    height: 5px;
+    z-index: 0;
+    margin-left: 1%;
+    background: url("../images/dot.jpg");
+    background-repeat: space;
+    background-size: contain;
+  }
+  .menu-cart .price {
+    width: auto;
+  }
+  .menu-cart .second-menu {
+    display: none;
+  }
+  .contact .background {
+    background-image: url(../images/contact-background.jpg);
+    height: 870px;
+    background-size: cover;
+    background-position: center;
+  }
+  .contact .facebook {
+    background-image: url(../images/social-facebook.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+  }
+  .contact .instagram {
+    background-image: url(../images/social-instagram.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+  }
+  .contact .copyright {
+    display: none;
+  }
+}
+@media screen and (min-width: 601px) {
+  .header .background {
+    background-image: url(../images/header-background-pc.jpg);
+    height: 965px;
+    background-size: cover;
+  }
+  .header .button-background {
+    margin-bottom: 300px;
+  }
+  .header .drop-down li a {
+    width: auto;
+    height: auto;
+  }
+  .header p {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1350px) {
+  .header .drop-down {
+    display: block;
+    width: 50%;
+  }
+  .header .button-background {
+    margin-bottom: 50px;
+  }
+  .header .drop-down li {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 601px) {
+  .yellow {
+    background-image: url(../images/yellow-bar-background-repeatable.jpg);
+  }
+  .yellow .turnip {
+    background-image: url(../images/noodle.png);
+    width: 106px;
+    height: 79px;
+  }
+  .yellow .beetroot {
+    background-image: url(../images/tea.png);
+    width: 106px;
+    height: 79px;
+  }
+  .yellow .get-social {
+    background-image: url(../images/sweet.png);
+    width: 106px;
+    height: 79px;
+  }
+}
+@media screen and (min-width: 601px) {
+  .month-special .pair {
+    background-color: #f8f8f8;
+    width: 500px;
+  }
+  .month-special img {
+    height: 250px;
+    width: 250px;
+  }
+}
+@media screen and (min-width: 601px) {
+  .about-us {
+    background-color: #f8f8f8;
+    padding-top: 230px;
+    height: 737px;
+  }
+  .about-us .background {
+    background-image: url(../images/about-us-background-pc.png);
+    width: 825px;
+    height: 628px;
+    background-size: cover;
+    background-position: left;
+    left: 52.4%;
+    top: 161px;
+  }
+  .about-us .desktop-signature {
+    background-image: url(../images/signature.png);
+    width: 213px;
+    height: 144px;
+    background-size: cover;
+  }
+  .about-us .text-container {
+    width: 34%;
+    min-width: 452px;
+  }
+}
+@media screen and (min-width: 601px) {
+  .menu-cart .dots::after {
+    content: "";
+    position: absolute;
+    bottom: 11px;
+    width: 600px;
+    height: 5px;
+    z-index: 0;
+    margin-left: 5px;
+    background: url("../images/dot.jpg");
+    background-repeat: space;
+    background-size: contain;
+  }
+  .menu-cart .price {
+    width: auto;
+    margin-bottom: 8px;
+  }
+}
+@media screen and (min-width: 601px) {
+  .contact .info-form {
+    width: 37.5%;
+    min-width: 430px;
+  }
+  .contact .background {
+    background-image: url(../images/contact-background.jpg);
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+  }
+  .contact .facebook {
+    background-image: url(../images/social-facebook.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+  }
+  .contact .instagram {
+    background-image: url(../images/social-instagram.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+  }
+}/*# sourceMappingURL=styles.css.map */
